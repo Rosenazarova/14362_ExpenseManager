@@ -1,0 +1,27 @@
+<mat-toolbar color="primary" class="flex-1">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Home"
+    (click)="toExpenses()"
+  >
+    <mat-icon>home</mat-icon>
+  </button>
+  <span> Expense Manager App </span>
+  <div class="flex justify-center my-4 mx-3">
+    <button mat-raised-button (click)="toExpenses()">View expenses</button>
+  </div>
+  <div class="flex justify-center my-4 mx-3">
+    <button mat-raised-button (click)="toExpensesTypes()">
+      View expense types
+    </button>
+  </div>
+  <div class="flex justify-center my-4 mx-3">
+    <button mat-raised-button (click)="CreateExpense()">Create expense</button>
+  </div>
+  <div class="flex justify-center my-4 mx-3">
+    <button mat-raised-button (click)="CreateExpenseType()">
+      Create expense type
+    </button>
+  </div>
+</mat-toolbar>

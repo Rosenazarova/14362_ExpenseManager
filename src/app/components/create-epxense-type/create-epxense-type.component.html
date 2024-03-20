@@ -1,0 +1,22 @@
+<div class="p-8 mt-8 flex justify-center">
+    <form class="shadow border w-4/12 p-4">
+      <h1>New Expense Type</h1>
+      <div class="flex">
+        <mat-form-field class="w-full">
+          <mat-label>Expense Type Name </mat-label>
+          <input
+            matInput
+            name="name"
+            type="text"
+            [(ngModel)]="expenseTypeCreate.name"
+          />
+        </mat-form-field>
+      </div>
+      <div class="flex justify-center">
+        <button mat-raised-button color="primary" (click)="create()">
+          Create Expense Type
+        </button>
+      </div>
+    </form>
+  </div>
+  
