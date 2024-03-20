@@ -1,8 +1,10 @@
-# 14362ExpenseManager
+# 14362 Expense Manager APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
-## Development server
+## This application was developed for WebApplication module
+
+## as coursework portfolio project @ WIUT by student ID: 14362
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
